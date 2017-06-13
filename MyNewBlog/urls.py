@@ -19,5 +19,7 @@ from patterns import patterns
 
 urlpatterns = [#patterns('',
     url(r'^admin/', admin.site.urls),
-    url(r'^', include('blog.urls'))
+    #url(r'^', include('blog.urls'))
+#)
 ]
+
